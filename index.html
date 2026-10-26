@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barline — 菜单栏逐行阅读</title>
+<style>
+  :root {
+    --ink: #26221c;
+    --sub: #6e665a;
+    --brand: #2e9e6b;
+    --paper: #f7f3ed;
+    --card: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Noto Sans SC", sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.7;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+  header { text-align: center; margin-bottom: 56px; }
+  .logo {
+    width: 88px; height: 88px; border-radius: 22px;
+    background: var(--brand); color: #fff;
+    font-size: 44px; font-weight: 700;
+    display: inline-flex; align-items: center; justify-content: center;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 34px; letter-spacing: 0.5px; }
+  .tagline { color: var(--sub); font-size: 17px; margin-top: 8px; }
+  section {
+    background: var(--card); border-radius: 16px;
+    padding: 28px 32px; margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(60, 50, 30, 0.06);
+  }
+  h2 { font-size: 19px; margin-bottom: 12px; }
+  h2 .en { color: var(--sub); font-size: 14px; font-weight: 400; margin-left: 6px; }
+  p, li { font-size: 15px; color: var(--ink); }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .sub { color: var(--sub); }
+  a { color: var(--brand); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { text-align: center; color: var(--sub); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">B</div>
+    <h1>Barline</h1>
+    <p class="tagline">把小说放进 Mac 菜单栏，一行一行，工作间隙随心读。</p>
+  </header>
+
+  <section>
+    <h2>产品介绍<span class="en">About</span></h2>
+    <p>Barline 是一款 macOS 菜单栏阅读 App：文字像歌词一样显示在屏幕顶端的菜单栏，自动翻行、速度可调。同时内置完整阅读器（翻页 / 滚动双模式、字体与颜色自定义），支持 TXT 导入，会员可导入 EPUB / Word。书架逐本记忆进度，数据全部保存在本地。</p>
+  </section>
+
+  <section>
+    <h2>常见问题<span class="en">FAQ</span></h2>
+    <ul>
+      <li><strong>找不到 Barline？</strong>Barline 没有 Dock 图标，入口在屏幕右上角菜单栏的「B」图标。如果看不到，点菜单栏边缘的 « 展开被系统折叠的图标。</li>
+      <li><strong>菜单栏空间不够？</strong>可在 App 内「设置 → 菜单栏」查看五种腾出位置的方法。</li>
+      <li><strong>怎么退出？</strong>单击菜单栏「B」图标打开控制面板，点最右侧的退出按钮。</li>
+      <li><strong>数据存在哪？</strong>全部保存在你的 Mac 本地，可随时在书架导出备份（含书籍、进度与设置）。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>联系与支持<span class="en">Support</span></h2>
+    <p>遇到问题或有功能建议，欢迎在 GitHub 提交 Issue：</p>
+    <p><a href="https://github.com/Ginkooooooo/barline/issues">github.com/Ginkooooooo/barline/issues</a></p>
+    <p class="sub">我们通常会在 3 个工作日内回复。</p>
+  </section>
+
+  <section>
+    <h2>隐私政策<span class="en">Privacy Policy</span></h2>
+    <p>Barline 不收集、不存储、不上传任何个人数据。你导入的书籍、阅读进度和全部设置都只保存在你的 Mac 本地。App 无任何广告与行为追踪。会员购买由 Apple App Store 处理，我们无法接触你的支付信息。</p>
+    <p class="sub" style="margin-top:10px">Barline does not collect, store, or upload any personal data. Your books, reading progress, and settings stay locally on your Mac. No ads, no tracking. Purchases are processed by the Apple App Store; we never see your payment information.</p>
+  </section>
+
+  <footer>© 2026 Barline</footer>
+
+</div>
+</body>
+</html>
